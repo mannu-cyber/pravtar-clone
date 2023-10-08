@@ -1,0 +1,124 @@
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #FFFFFF;
+     color: #00000053;
+}
+
+.navbar{
+  
+     width: 100vw;
+     height: 50px;
+     background-color: #F8F8F8;
+     border-bottom: .5px solid rgba(0, 0, 0, 0.469);
+
+}
+.navbar-brand{
+     display: block;
+     margin-left: 108px;
+padding: 13px;
+font-size: 19px;
+font-weight: 500;
+text-decoration: none;
+color: rgba(0, 0, 0, 0.545);
+}
+
+.navbar-brand small{
+     font-size: 15px;
+     font-weight: 500;
+}
+.home{
+     margin: 5px 20px;
+     font-weight: 500;
+     font-size:1.25vw;
+}
+
+.call-btn{
+     width: 210px;
+     height: 30px;
+  position: fixed;
+  bottom: 80px;
+  right: 0px;
+}
+
+.btn{
+margin: 10px;
+padding: 10px ;
+border-radius: 10px;
+border: none;
+color: rgba(185, 49, 212, 0.74);
+background-color: rgba(238, 233, 179, 0.775);
+font-size: 20px;
+}
+
+.image-list{
+     margin-left: 110px;
+     color: rgba(0, 0, 0, 0.808);
+     font-size: 35px;
+     font-weight: 500;
+}
+
+.card-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 0 108px;
+     margin-top: -20px;
+    
+    
+
+}
+
+.card{
+     display: block;
+     padding: 4px;
+     position: relative;
+     margin: 5px;
+     margin-bottom: 20px;
+
+     line-height: 1.42857143;
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+
+  
+     width: 250px;
+     height: 320px;
+}
+
+.card:hover{
+     transition: .5s;
+     
+     backdrop-filter:blur(10px);
+}
+
+.card h1{
+     display: inline-block;
+     font-weight: 1;
+     color: rgba(0, 0, 0, 0.806);
+     font-size: 2vw;
+}
+
+.image{
+
+     display: block;
+     max-width: 100%;
+     height: auto;
+ }
+
+ .source-button{
+     position: absolute;
+     border-radius: 5px;
+     border: .5px solid rgba(0, 0, 0, 0.531);
+right: 9px;
+bottom: 20px;
+height: 25px;
+width: 60px;
+color: rgba(0, 0, 0, 0.682);
+ }
+
+
+ 
